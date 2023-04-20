@@ -1,4 +1,5 @@
 import React from 'react'
+import Sidebar from './Sidebar'
 import { Card } from '@mui/material'
 
 
@@ -14,6 +15,9 @@ const Header = () => {
 
 
   Im a Header
+
+
+    <Sidebar/>
   </Card>
   )
 }
