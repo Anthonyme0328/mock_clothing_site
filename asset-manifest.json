@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/mock_clothing_site/static/js/main.ad4cdc04.js",
+    "index.html": "/mock_clothing_site/index.html",
+    "main.ad4cdc04.js.map": "/mock_clothing_site/static/js/main.ad4cdc04.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ad4cdc04.js"
+  ]
+}
