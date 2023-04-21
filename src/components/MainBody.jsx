@@ -1,7 +1,7 @@
-import React from 'react'
-import Cards from './Cards'
+import React, { useContext } from 'react'
+import { addToCart } from '../helpers/Context'
+
 import { Grid, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
-import Clothing from '../jsons/clothing.json'
 import c1 from '../images/c1.jpg'
 import c2 from '../images/c2.jpg'
 import c3 from '../images/c3.jpg'
@@ -28,7 +28,8 @@ import c22 from '../images/c22.jpg'
 
 
 const MainBody = () => {
-  let i = 0
+  const {cartValue, setCartValue} = useContext(addToCart)
+ 
   return (
     <Grid container spacing={2}>
 
@@ -41,7 +42,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -57,7 +58,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -73,7 +74,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -89,7 +90,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -105,7 +106,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -121,7 +122,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -137,7 +138,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -153,7 +154,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -169,7 +170,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -185,7 +186,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -201,7 +202,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -217,7 +218,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -233,7 +234,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -249,7 +250,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -265,7 +266,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -281,7 +282,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -297,7 +298,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -313,7 +314,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -329,7 +330,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -345,7 +346,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -361,7 +362,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>
@@ -377,7 +378,7 @@ const MainBody = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button color='primary' variant='contained' sx={{width: '100%'}}>
+            <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
               click me
             </Button>
           </CardActions>

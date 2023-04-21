@@ -1,14 +1,17 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { Button, Badge } from '@mui/material'
 import SegmentIcon from '@mui/icons-material/Segment';
+import { addToCart } from '../helpers/Context'
+
 
 const Sidebar = () => {
-  let i = 0
+  const {cartValue, setCartValue} = useContext(addToCart)
+
   return (
 
         <Badge
         sx={{float: 'right'}}
-        badgeContent={i} 
+        badgeContent={cartValue} 
         color='secondary' 
         showZero
         overlap='circular'

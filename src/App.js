@@ -4,19 +4,22 @@ import MainBody from "./components/MainBody";
 import Sidebar from "./components/Sidebar";
 import Cards from "./components/Cards";
 
+import { addToCart } from "./helpers/Context";
+import { useState } from "react";
+
 
 
 
 
 
 function App() {
+  const [cartValue, setCartValue] = useState(0)
   return (
-    <div className="App">
+    <addToCart.Provider value={{cartValue: cartValue, setCartValue: setCartValue}}>
       <Header />
       <MainBody />
       <Footer />
-       
-    </div>
+    </addToCart.Provider>
   );
 }
 
