@@ -1,10 +1,32 @@
 {
   "files": {
-    "main.js": "/mock_clothing_site/static/js/main.ad4cdc04.js",
+    "main.js": "/mock_clothing_site/static/js/main.9ec6be29.js",
+    "static/media/c18.jpg": "/mock_clothing_site/static/media/c18.48ffeccf5151b86455ca.jpg",
+    "static/media/c22.jpg": "/mock_clothing_site/static/media/c22.33a72d9aba6fa11606d3.jpg",
+    "static/media/c19.jpg": "/mock_clothing_site/static/media/c19.1e7f4859cb98636c8720.jpg",
+    "static/media/c21.jpg": "/mock_clothing_site/static/media/c21.d6905e74909174a7d2d4.jpg",
+    "static/media/c7.jpg": "/mock_clothing_site/static/media/c7.43cf397bd4359f255e26.jpg",
+    "static/media/c8.jpg": "/mock_clothing_site/static/media/c8.49d0f6068e6e34bc574e.jpg",
+    "static/media/c10.jpg": "/mock_clothing_site/static/media/c10.b33d2f55ee1f1e510ad2.jpg",
+    "static/media/c2.jpg": "/mock_clothing_site/static/media/c2.cbf67ef41b7f2763356f.jpg",
+    "static/media/c14.jpg": "/mock_clothing_site/static/media/c14.e709e14c8d68ca5f0329.jpg",
+    "static/media/c5.jpg": "/mock_clothing_site/static/media/c5.17613bb92ae014bc90eb.jpg",
+    "static/media/c6.jpg": "/mock_clothing_site/static/media/c6.c1381acdf6111d28e467.jpg",
+    "static/media/c4.jpg": "/mock_clothing_site/static/media/c4.ce0952fdbaaf039cb2e5.jpg",
+    "static/media/c3.jpg": "/mock_clothing_site/static/media/c3.de2b277f5f32590dfd24.jpg",
+    "static/media/c13.jpg": "/mock_clothing_site/static/media/c13.b785406b076ace0c218e.jpg",
+    "static/media/c11.jpg": "/mock_clothing_site/static/media/c11.02dd2f5a131a6cc7ac4a.jpg",
+    "static/media/c15.jpg": "/mock_clothing_site/static/media/c15.f76932c40cff165980e8.jpg",
+    "static/media/c20.jpg": "/mock_clothing_site/static/media/c20.dc14af3c3b7839b4d60b.jpg",
+    "static/media/c12.jpg": "/mock_clothing_site/static/media/c12.7b4fab2b048e6f4adbae.jpg",
+    "static/media/c16.jpg": "/mock_clothing_site/static/media/c16.a1a7e8f454877dc2dcef.jpg",
+    "static/media/c9.jpg": "/mock_clothing_site/static/media/c9.90a57e732b31e22e22ae.jpg",
+    "static/media/c1.jpg": "/mock_clothing_site/static/media/c1.1c93cc647c5276f86fa4.jpg",
+    "static/media/c17.jpg": "/mock_clothing_site/static/media/c17.5fe9418b5130ffa7af59.jpg",
     "index.html": "/mock_clothing_site/index.html",
-    "main.ad4cdc04.js.map": "/mock_clothing_site/static/js/main.ad4cdc04.js.map"
+    "main.9ec6be29.js.map": "/mock_clothing_site/static/js/main.9ec6be29.js.map"
   },
   "entrypoints": [
-    "static/js/main.ad4cdc04.js"
+    "static/js/main.9ec6be29.js"
   ]
 }
