@@ -10,7 +10,8 @@ const Footer = () => {
       width: '100%',
       backgroundColor: "gray",
       color:'white',
-      textAlign: 'center'}} >
+      textAlign: 'center'
+      }} >
 
     Im a footer
     </Card>

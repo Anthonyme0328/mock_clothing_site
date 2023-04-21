@@ -31,19 +31,19 @@ const MainBody = () => {
   const {cartValue, setCartValue} = useContext(addToCart)
  
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} sx={{mb: '5em'}}>
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c1} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Thrasher Cotton Shirt
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -54,12 +54,12 @@ const MainBody = () => {
           <CardMedia src={c2} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Jackson Denim Jeans
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -70,12 +70,12 @@ const MainBody = () => {
           <CardMedia src={c3} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Seafarer Spotted Button Up
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -86,12 +86,12 @@ const MainBody = () => {
           <CardMedia src={c4} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Neko Blast Cotton Shirt
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -102,12 +102,12 @@ const MainBody = () => {
           <CardMedia src={c5} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Pompeii Denim Jeans
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -118,12 +118,12 @@ const MainBody = () => {
           <CardMedia src={c6} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Smokers Only Jacket
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -134,12 +134,12 @@ const MainBody = () => {
           <CardMedia src={c7} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Brawler Denim Jacket
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -150,12 +150,12 @@ const MainBody = () => {
           <CardMedia src={c8} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Huntsman Wind Breaker
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -166,12 +166,12 @@ const MainBody = () => {
           <CardMedia src={c9} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Husky Denim Coat
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -182,12 +182,12 @@ const MainBody = () => {
           <CardMedia src={c10} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Siberia Fleece Coat
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -198,12 +198,12 @@ const MainBody = () => {
           <CardMedia src={c11} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Hillary Cotton Trousers
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -214,12 +214,12 @@ const MainBody = () => {
           <CardMedia src={c12} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Nike Reactx 
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -230,12 +230,12 @@ const MainBody = () => {
           <CardMedia src={c13} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Vans Classic Low Top
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -246,12 +246,12 @@ const MainBody = () => {
           <CardMedia src={c14} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Carthart Heavy Work Shoe
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -262,12 +262,12 @@ const MainBody = () => {
           <CardMedia src={c15} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Nike Spring Runner
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -278,12 +278,12 @@ const MainBody = () => {
           <CardMedia src={c16} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Nike Lime Fever 
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -294,12 +294,12 @@ const MainBody = () => {
           <CardMedia src={c17} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              I'm Bananas Long Sock
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -310,12 +310,12 @@ const MainBody = () => {
           <CardMedia src={c18} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Cabin In The Woods Sock
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -326,12 +326,12 @@ const MainBody = () => {
           <CardMedia src={c19} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Argile It Alone Sock
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -342,12 +342,12 @@ const MainBody = () => {
           <CardMedia src={c20} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Fresh Squeeze Long Sock
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -358,12 +358,12 @@ const MainBody = () => {
           <CardMedia src={c21} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              We All Want To Be Joggers
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
@@ -374,12 +374,12 @@ const MainBody = () => {
           <CardMedia src={c22} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
             <Typography>
-              Im a Card
+              Fresh White Tee
             </Typography>
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
-              click me
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
