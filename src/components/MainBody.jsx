@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import { addToCart } from '../helpers/Context'
 
+import DropDown from './DropDown'
+
 import { Grid, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
 import c1 from '../images/c1.jpg'
 import c2 from '../images/c2.jpg'
@@ -40,6 +42,7 @@ const MainBody = () => {
             <Typography>
               Thrasher Cotton Shirt
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -56,6 +59,7 @@ const MainBody = () => {
             <Typography>
               Jackson Denim Jeans
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -72,6 +76,7 @@ const MainBody = () => {
             <Typography>
               Seafarer Spotted Button Up
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -88,6 +93,7 @@ const MainBody = () => {
             <Typography>
               Neko Blast Cotton Shirt
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -104,6 +110,7 @@ const MainBody = () => {
             <Typography>
               Pompeii Denim Jeans
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -120,6 +127,7 @@ const MainBody = () => {
             <Typography>
               Smokers Only Jacket
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -136,6 +144,7 @@ const MainBody = () => {
             <Typography>
               Brawler Denim Jacket
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -152,6 +161,7 @@ const MainBody = () => {
             <Typography>
               Huntsman Wind Breaker
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -168,6 +178,7 @@ const MainBody = () => {
             <Typography>
               Husky Denim Coat
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -184,6 +195,7 @@ const MainBody = () => {
             <Typography>
               Siberia Fleece Coat
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -200,6 +212,7 @@ const MainBody = () => {
             <Typography>
               Hillary Cotton Trousers
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -216,6 +229,7 @@ const MainBody = () => {
             <Typography>
               Nike Reactx 
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -232,6 +246,7 @@ const MainBody = () => {
             <Typography>
               Vans Classic Low Top
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -248,6 +263,7 @@ const MainBody = () => {
             <Typography>
               Carthart Heavy Work Shoe
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -264,6 +280,7 @@ const MainBody = () => {
             <Typography>
               Nike Spring Runner
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -280,6 +297,7 @@ const MainBody = () => {
             <Typography>
               Nike Lime Fever 
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -296,6 +314,7 @@ const MainBody = () => {
             <Typography>
               I'm Bananas Long Sock
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -312,6 +331,7 @@ const MainBody = () => {
             <Typography>
               Cabin In The Woods Sock
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -328,6 +348,7 @@ const MainBody = () => {
             <Typography>
               Argile It Alone Sock
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -344,6 +365,7 @@ const MainBody = () => {
             <Typography>
               Fresh Squeeze Long Sock
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -360,6 +382,7 @@ const MainBody = () => {
             <Typography>
               We All Want To Be Joggers
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
@@ -376,6 +399,7 @@ const MainBody = () => {
             <Typography>
               Fresh White Tee
             </Typography>
+            <DropDown />
           </CardContent>
           <CardActions>
             <Button color='primary' variant='contained' sx={{width: '100%'}} onClick={() => setCartValue (preValue => preValue + 1)}>
