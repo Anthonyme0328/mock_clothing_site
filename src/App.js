@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MainBody from "./components/MainBody";
 import Sidebar from "./components/Sidebar";
+import Cards from "./components/Cards";
 
 
 

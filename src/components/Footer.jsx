@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from '@mui/material'
 
+
 const Footer = () => {
   return (
     <Card sx={{position: 'fixed',
@@ -10,7 +11,6 @@ const Footer = () => {
       backgroundColor: "gray",
       color:'white',
       textAlign: 'center'}} >
-
 
     Im a footer
     </Card>

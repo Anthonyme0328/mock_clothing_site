@@ -1,9 +1,22 @@
 import React from 'react'
-import { Button } from '@mui/material'
+import { Button, Badge } from '@mui/material'
 import SegmentIcon from '@mui/icons-material/Segment';
 
 const Sidebar = () => {
+  let i = 0
   return (
+
+        <Badge
+        sx={{float: 'right'}}
+        badgeContent={i} 
+        color='secondary' 
+        showZero
+        overlap='circular'
+        anchorOrigin={{
+          vertical: 'top',
+          horizontal: 'right',
+        }}
+      >  
     <Button 
     variant='contained' 
     color='primary' 
@@ -12,11 +25,14 @@ const Sidebar = () => {
       height: '2em', 
       color: 'lightblue', 
       float: 'right', 
-      m: '.5em .5em .5em 0em'
+      m: '1em 1em 1em 0em'
       }}
     >
-      <SegmentIcon />
+
+        <SegmentIcon />
+      
     </Button>
+    </Badge>
     
   )
 }

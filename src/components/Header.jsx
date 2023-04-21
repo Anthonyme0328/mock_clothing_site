@@ -4,6 +4,7 @@ import { Card } from '@mui/material'
 
 
 const Header = () => {
+  let i = 0
   return (
     <Card sx={{
     mt: 0,
@@ -17,7 +18,7 @@ const Header = () => {
   Im a Header
 
 
-    <Sidebar/>
+      <Sidebar/>
   </Card>
   )
 }
