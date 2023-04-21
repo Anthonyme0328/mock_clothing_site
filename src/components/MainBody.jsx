@@ -3,7 +3,7 @@ import { addToCart } from '../helpers/Context'
 
 import DropDown from './DropDown'
 
-import { Grid, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
+import { Grid, Button, Card, CardActions, CardContent, CardMedia, Typography, Badge } from '@mui/material'
 import c1 from '../images/c1.jpg'
 import c2 from '../images/c2.jpg'
 import c3 from '../images/c3.jpg'
@@ -36,10 +36,21 @@ const MainBody = () => {
     <Grid container spacing={2} sx={{mb: '5em'}}>
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
+
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+          <Badge
+            badgeContent={'Free Shipping'} 
+            color='secondary' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c1} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+          </Badge> 
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Thrasher Cotton Shirt
             </Typography>
             <DropDown />
@@ -50,13 +61,14 @@ const MainBody = () => {
             </Button>
           </CardActions>
         </Card>
+
       </Grid>
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c2} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Jackson Denim Jeans
             </Typography>
             <DropDown />
@@ -71,9 +83,19 @@ const MainBody = () => {
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+        <Badge
+            badgeContent={'Sale'} 
+            color='info' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c3} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+        </Badge>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Seafarer Spotted Button Up
             </Typography>
             <DropDown />
@@ -88,9 +110,19 @@ const MainBody = () => {
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+        <Badge
+            badgeContent={'Free Shipping'} 
+            color='secondary' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c4} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+        </Badge>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Neko Blast Cotton Shirt
             </Typography>
             <DropDown />
@@ -105,9 +137,19 @@ const MainBody = () => {
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+        <Badge
+            badgeContent={'Sale'} 
+            color='info' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c5} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+        </Badge>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Pompeii Denim Jeans
             </Typography>
             <DropDown />
@@ -124,7 +166,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c6} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Smokers Only Jacket
             </Typography>
             <DropDown />
@@ -141,7 +183,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c7} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Brawler Denim Jacket
             </Typography>
             <DropDown />
@@ -156,9 +198,19 @@ const MainBody = () => {
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+        <Badge
+            badgeContent={'Free Shipping'} 
+            color='secondary' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c8} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+        </Badge>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Huntsman Wind Breaker
             </Typography>
             <DropDown />
@@ -173,9 +225,19 @@ const MainBody = () => {
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+        <Badge
+            badgeContent={'Sale'} 
+            color='info' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c9} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+        </Badge>  
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Husky Denim Coat
             </Typography>
             <DropDown />
@@ -192,7 +254,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c10} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Siberia Fleece Coat
             </Typography>
             <DropDown />
@@ -209,7 +271,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c11} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Hillary Cotton Trousers
             </Typography>
             <DropDown />
@@ -224,9 +286,19 @@ const MainBody = () => {
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+        <Badge
+            badgeContent={'Free Shipping'} 
+            color='secondary' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c12} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+        </Badge>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Nike Reactx 
             </Typography>
             <DropDown />
@@ -243,7 +315,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c13} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Vans Classic Low Top
             </Typography>
             <DropDown />
@@ -260,7 +332,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c14} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Carthart Heavy Work Shoe
             </Typography>
             <DropDown />
@@ -275,9 +347,19 @@ const MainBody = () => {
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+        <Badge
+            badgeContent={'Free Shipping'} 
+            color='secondary' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c15} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+        </Badge>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Nike Spring Runner
             </Typography>
             <DropDown />
@@ -294,7 +376,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c16} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Nike Lime Fever 
             </Typography>
             <DropDown />
@@ -309,9 +391,19 @@ const MainBody = () => {
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+        <Badge
+            badgeContent={'Sale'} 
+            color='info' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c17} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+        </Badge>  
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               I'm Bananas Long Sock
             </Typography>
             <DropDown />
@@ -328,7 +420,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c18} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Cabin In The Woods Sock
             </Typography>
             <DropDown />
@@ -345,7 +437,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c19} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Argile It Alone Sock
             </Typography>
             <DropDown />
@@ -362,7 +454,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c20} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Fresh Squeeze Long Sock
             </Typography>
             <DropDown />
@@ -379,7 +471,7 @@ const MainBody = () => {
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
           <CardMedia src={c21} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               We All Want To Be Joggers
             </Typography>
             <DropDown />
@@ -394,9 +486,19 @@ const MainBody = () => {
 
       <Grid item xs={6} sm={6} md={6} lg={4} xl={4}>
         <Card sx={{width: '25em', m: "0 auto",  mt: '2em', textAlign: 'center', boxShadow: '5px 10px gray', border: '2px solid black'}}>
+        <Badge
+            badgeContent={'Sale'} 
+            color='info' 
+            overlap='circular'
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
           <CardMedia src={c22} component='img' sx={{height: '10em', objectFit: 'contain'}}/>
+        </Badge>  
           <CardContent>
-            <Typography>
+            <Typography sx={{textDecoration: 'underline yellow'}}>
               Fresh White Tee
             </Typography>
             <DropDown />
