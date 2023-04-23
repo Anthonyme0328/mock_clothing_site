@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import { Button, Badge } from '@mui/material'
 import SegmentIcon from '@mui/icons-material/Segment';
 import { addToCart } from '../helpers/Context'
+import Dials from './Dials';
 
 
 const Sidebar = () => {
@@ -35,6 +36,7 @@ const Sidebar = () => {
         <SegmentIcon />
       
     </Button>
+    {/* <Dials /> */}
     </Badge>
     
   )
